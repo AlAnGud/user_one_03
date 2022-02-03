@@ -1,0 +1,89 @@
+body {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.head {
+	background: url(/img/bg/bgc.jpg) center center / cover no-repeat;
+	height    : 100vh;
+}
+
+.header {
+	justify-content: space-between;
+	display        : flex;
+	align-items    : center;
+	padding-top    : 25px;
+	font-family    : "Gilroy", sans-serif;
+	margin         : 0 auto;
+	width          : 1300px;
+}
+
+.head-menu {}
+
+.head-menu:last-child {}
+
+.head-menu__link {
+	color          : white;
+	text-decoration: none;
+	font-size      : 14px;
+	line-height    : 1.5;
+	margin-right   : 40px;
+}
+
+.head-menu__link:last-child {
+	margin-right: 0px;
+}
+
+.head-logo {
+	position   : relative;
+	display    : flex;
+	align-items: center;
+}
+
+.head-logo__bril-1 {
+	position   : absolute;
+	left: 179px;
+}
+
+.head-logo__bril-2 {
+	position   : absolute;
+	left: 15px;
+}
+
+
+
+.head-account {
+	display    : flex;
+	align-items: center;
+}
+
+.head-account__search {
+	display    : flex;
+	align-items: center;
+
+}
+
+.head-account__search-window {
+	margin-left: 16px;
+	background : none;
+	border     : none;
+	color      : white;
+	font-size  : 14px;
+	line-height: 1.5;
+	width      : 60px;
+}
+
+.head-account__entrance-title {
+	color          : white;
+	text-decoration: none;
+	font-size      : 14px;
+	line-height    : 1.5;
+	margin-right   : 44px;
+}
+
+.head-account__ico-chel {
+	margin-right: 28px;
+}
